@@ -15,7 +15,7 @@ class { 'r10k':
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/spoofedpacket/puppet_repository.git',
-      'basedir' => "${::settings::confdir}/environments",
+      'basedir' => "${::settings::codedir}/environments",
       'prefix'  => false,
     }
   },
