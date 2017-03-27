@@ -14,7 +14,7 @@ class { 'r10k':
   version           => '1.5.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/glarizza/puppet_repository.git',
+      'remote'  => 'https://github.com/spoofedpacket/puppet_repository.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
